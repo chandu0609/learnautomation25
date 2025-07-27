@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-26T14:54:01 PDT" name="Suite" finished-at="2025-07-26T14:54:02 PDT" duration-ms="77">
+    <groups>
+    </groups>
+    <test started-at="2025-07-26T14:54:01 PDT" name="Test1" finished-at="2025-07-26T14:54:02 PDT" duration-ms="77">
+      <class name="com.crm.qa.paralleltests.TestClass1">
+        <test-method signature="testMethod1()[pri:0, instance:com.crm.qa.paralleltests.TestClass1@40a4337a]" started-at="2025-07-26T14:54:01 PDT" name="testMethod1" finished-at="2025-07-26T14:54:02 PDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method signature="testMethod2()[pri:0, instance:com.crm.qa.paralleltests.TestClass1@40a4337a]" started-at="2025-07-26T14:54:01 PDT" name="testMethod2" finished-at="2025-07-26T14:54:02 PDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method signature="testMethod3()[pri:0, instance:com.crm.qa.paralleltests.TestClass1@40a4337a]" started-at="2025-07-26T14:54:02 PDT" name="testMethod3" finished-at="2025-07-26T14:54:02 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method signature="testMethod4()[pri:0, instance:com.crm.qa.paralleltests.TestClass1@40a4337a]" started-at="2025-07-26T14:54:02 PDT" name="testMethod4" finished-at="2025-07-26T14:54:02 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod4 -->
+      </class> <!-- com.crm.qa.paralleltests.TestClass1 -->
+      <class name="com.crm.qa.paralleltests.TestClass2">
+        <test-method signature="testMethod5()[pri:0, instance:com.crm.qa.paralleltests.TestClass2@4c12331b]" started-at="2025-07-26T14:54:02 PDT" name="testMethod5" finished-at="2025-07-26T14:54:02 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod5 -->
+        <test-method signature="testMethod6()[pri:0, instance:com.crm.qa.paralleltests.TestClass2@4c12331b]" started-at="2025-07-26T14:54:02 PDT" name="testMethod6" finished-at="2025-07-26T14:54:02 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod6 -->
+        <test-method signature="testMethod7()[pri:0, instance:com.crm.qa.paralleltests.TestClass2@4c12331b]" started-at="2025-07-26T14:54:02 PDT" name="testMethod7" finished-at="2025-07-26T14:54:02 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod7 -->
+      </class> <!-- com.crm.qa.paralleltests.TestClass2 -->
+      <class name="com.crm.qa.paralleltests.TestClass3">
+        <test-method signature="testMethod10()[pri:0, instance:com.crm.qa.paralleltests.TestClass3@7586beff]" started-at="2025-07-26T14:54:02 PDT" name="testMethod10" finished-at="2025-07-26T14:54:02 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod10 -->
+        <test-method signature="testMethod8()[pri:0, instance:com.crm.qa.paralleltests.TestClass3@7586beff]" started-at="2025-07-26T14:54:02 PDT" name="testMethod8" finished-at="2025-07-26T14:54:02 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod8 -->
+        <test-method signature="testMethod9()[pri:0, instance:com.crm.qa.paralleltests.TestClass3@7586beff]" started-at="2025-07-26T14:54:02 PDT" name="testMethod9" finished-at="2025-07-26T14:54:02 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod9 -->
+      </class> <!-- com.crm.qa.paralleltests.TestClass3 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
