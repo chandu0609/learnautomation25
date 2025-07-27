@@ -50,13 +50,13 @@ public class TestBase {
 	}
 	
 	public static void initialization(ITestContext context) {
-		String browserName = prop.getProperty("browser", prop.getProperty("browser"));
+		String browserName = System.getProperty("browser", prop.getProperty("browser"));
 		String setheadless = prop.getProperty("headless");
 		
 		boolean isHeadless = setheadless.equalsIgnoreCase("true");
 		WebDriver baseDriver = null;
 		
-		if(browserName.equals("chrome")) {
+		if(browserName.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			if(isHeadless)
@@ -68,7 +68,7 @@ public class TestBase {
 			baseDriver = new ChromeDriver(options);
 			System.out.println("LAUNCHED CHROME");
 		}
-		else if(browserName.equals("firefox")) {
+		else if(browserName.equalsIgnoreCase("firefox")) {
 			 WebDriverManager.firefoxdriver().setup();
 			 FirefoxOptions options = new FirefoxOptions();
 		        if (isHeadless) {
@@ -77,7 +77,7 @@ public class TestBase {
 		        baseDriver = new FirefoxDriver(options);
 		        System.out.println("LAUNCHED FIREFOX");
 		}
-		else if(browserName.equals("edge")) {
+		else if(browserName.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
 			if(isHeadless) {
 				EdgeOptions options = new EdgeOptions();
