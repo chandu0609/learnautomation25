@@ -50,7 +50,7 @@ public class TestBase {
 	}
 	
 	public static void initialization(ITestContext context) {
-		String browserName = prop.getProperty("browser");
+		String browserName = prop.getProperty("browser", prop.getProperty("browser"));
 		String setheadless = prop.getProperty("headless");
 		
 		boolean isHeadless = setheadless.equalsIgnoreCase("true");
@@ -66,6 +66,7 @@ public class TestBase {
 				options.addArguments("--window-size=1920,1080");
 			}
 			baseDriver = new ChromeDriver(options);
+			System.out.println("LAUNCHED CHROME");
 		}
 		else if(browserName.equals("firefox")) {
 			 WebDriverManager.firefoxdriver().setup();
@@ -74,6 +75,7 @@ public class TestBase {
 		            options.addArguments("--headless");
 		        }
 		        baseDriver = new FirefoxDriver(options);
+		        System.out.println("LAUNCHED FIREFOX");
 		}
 		else if(browserName.equals("edge")) {
 			WebDriverManager.edgedriver().setup();
@@ -84,6 +86,7 @@ public class TestBase {
 					options.addArguments("disable-gpu");
 				}
 				baseDriver = new EdgeDriver(options);
+				System.out.println("LAUNCHED EDGE");
 			}
 		}
 		else {
