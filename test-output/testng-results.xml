@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-03T15:45:55 PDT" name="Suite" finished-at="2025-08-03T15:46:07 PDT" duration-ms="12679">
+    <groups>
+    </groups>
+    <test started-at="2025-08-03T15:45:55 PDT" name="Test" finished-at="2025-08-03T15:46:07 PDT" duration-ms="12679">
+      <class name="com.gorest.tests.GoTestUserTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.gorest.tests.GoTestUserTest@c05fddc]" started-at="2025-08-03T15:45:55 PDT" name="setup" finished-at="2025-08-03T15:45:55 PDT" duration-ms="359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gorest.co.in/public/v2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[684f8afcf4d4aca080564010b2545522dafad7176bda0183eba0f51e2ef5dd69]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateUserAPI()[pri:0, instance:com.gorest.tests.GoTestUserTest@c05fddc]" started-at="2025-08-03T15:45:55 PDT" name="CreateUserAPI" finished-at="2025-08-03T15:46:07 PDT" duration-ms="12283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUserAPI -->
+      </class> <!-- com.gorest.tests.GoTestUserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

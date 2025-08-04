@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="baseuri" value="https://gorest.co.in/public/v2"></parameter>
+	<parameter name="API_TOKEN"
+		value="684f8afcf4d4aca080564010b2545522dafad7176bda0183eba0f51e2ef5dd69"></parameter>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.gorest.tests.GoTestUserTest"></class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
